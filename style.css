@@ -5,6 +5,21 @@
     --cor-de-fundo: #00030C;
 }
 
-body {
+.corpo {
     background-color: var(--cor-de-fundo);
+}
+
+.container {
+    height: 100vh;
+}
+
+.principal {
+    background-image: url(./img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.principal__titulo {
+    color: var(--branco-principal);
+    font-size: 1.5rem;
 }
